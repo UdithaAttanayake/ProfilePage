@@ -1,0 +1,169 @@
+.header-h1 {
+  color: antiquewhite;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  /* border-style: solid; */
+  margin: auto;
+  /* border-radius: 15px; */
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+ 
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: rgba(87, 86, 86, 0.815);
+
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.container-banner {
+  background-color: #f1f1f1;
+  text-align: center;
+  border-style: hidden;
+  border-radius: 15px;
+  font-family: "Ruda", sans-serif;
+  width: 300px;
+  height: 100vh;
+}
+
+.container-about {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-style: hidden;
+  padding: 18px;
+  text-align: center;
+  width: 900px;
+  height: 70vh;
+}
+
+.container-about > p {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.container-about > h1 {
+  font-family: "Ruda", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.container p {
+  font-family: "Slabo 27px", serif;
+}
+
+.container a:hover {
+  transform: scale(1.1);
+}
+
+.container-1 {
+  color: #f1f1f1;
+  text-align: center;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 16px;
+}
+
+#contactimg {
+  border-style: hidden;
+  background-color: #f1f1f1;
+  border-radius: 90px;
+}
+
+.container-1 > a {
+  padding-left: 5px;
+  font-size: 22px;
+  text-decoration: none;
+}
+span:hover {
+  text-decoration: none;
+  transform: scale(1.5);
+}
+
+.LoginName {
+  margin-right: 1%;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.profilepicture {
+  border: 5px solid rgba(0, 0, 0, 0.178);
+  border-style: ridge;
+  color: rgba(0, 0, 0, 0.301);
+  margin: 60px;
+  padding: 20px;
+}
+
+
+.LoginName,
+.passWord {
+  width: 100%;
+}

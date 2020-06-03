@@ -12,13 +12,16 @@ function App() {
     <div className="App">
       <Header />
       <hr />
- <div className="wrapper">
-      <br />
+<div className="row">
+<div class="col-3 menu">
+
       <Banner /> 
-      <br />
-      <About />
-      <br />
       </div>
+      <div class="col-9">
+
+      <About />
+      </div>
+      
       <hr />
     
       <hr />
@@ -27,7 +30,7 @@ function App() {
       <h1 id="contactnav" className="contact">System Messages</h1>
       <hr />
       <Contact />
-
+      </div>
     </div>
   );
 }

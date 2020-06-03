@@ -79,8 +79,8 @@
   border-style: hidden;
   border-radius: 15px;
   font-family: "Ruda", sans-serif;
-  width: 300px;
   height: 100vh;
+  padding:18px ;
 }
 
 .container-about {
@@ -89,8 +89,6 @@
   border-style: hidden;
   padding: 18px;
   text-align: center;
-  width: 900px;
-  height: 70vh;
 }
 
 .container-about > p {
@@ -160,6 +158,7 @@ span:hover {
   color: rgba(0, 0, 0, 0.301);
   margin: 60px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 
